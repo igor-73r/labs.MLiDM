@@ -11,5 +11,6 @@
     <h1>Лабораторные работы Рябуши Игоря ИВТАСбд-12</h1>
     <a href="labs.pages/lab1.php">Лабораторная работа №1</a><br>
     <a href="labs.pages/lab2.php">Лабораторная работа №2</a><br>
+    <a href="labs.pages/lab3.php">Лабораторная работа №3</a><br>
 </body>
 </html>

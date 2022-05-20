@@ -1,7 +1,6 @@
-let errmsg = "";
+let errmsg = ""
 
-function  ifval(mass, pos)
-{
+function  ifval(mass, pos) {
     let ok = false
     if (mass[0] !== '') {
         for (var i = 0; i < mass.length; i++){
@@ -85,8 +84,7 @@ function diff(a1, a2) {
 }
 
 
-function main()
-{
+function main() {
     let mass1 = document.getElementById('mass1')
     let mass2 = document.getElementById('mass2')
     let arr1 = (mass1.value).split(' ')
