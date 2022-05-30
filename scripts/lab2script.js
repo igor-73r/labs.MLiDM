@@ -83,11 +83,13 @@ function createMatrix() {
     more_elems = []
 
     more_elems = remove()
+
     for (let i = 0; i < more_elems.length; i++) {
         let temp = []
         for (let j = 0; j < more_elems.length; j++) {
-            if (elems.some(e => [more_elems[i], more_elems[j]].every((v, i) => v === e[i])))
+            if (elems.some(e => [more_elems[i], more_elems[j]].every((v, i) => v === e[i]))){
                 temp.push(1)
+            }
             else
                 temp.push(0)
         }
